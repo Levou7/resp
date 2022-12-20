@@ -1,0 +1,191 @@
+.process{
+    h1{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343D;
+    }
+    .bottom{
+        margin-bottom: 60px;
+    }
+    h2{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #22343D;
+    }
+    p{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+
+    }
+    .imgTxt{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 80px;
+        .Txt{
+            width: 500px;
+        }
+    }
+    &__second{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-txt{
+            width: 600px;
+            &-txt{
+                &-1{
+                    display: flex;
+                    align-items: center;
+                    p{
+                        margin-top: 10px;
+                        width: 360px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 
+
+.quick{
+    margin-top: 120px;
+    h1{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #22343D;
+    }
+    p{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+    }
+    &__txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        p{
+            width: 540px;
+            text-align: center;
+        }
+    }
+    &__first{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 20px;
+        &-left{
+            display: flex;
+            align-items: center;
+            p{
+                margin-left: 20px;
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            p{
+                margin-right: 20px;
+            }
+        }
+    }
+    &__second{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 30px;
+        &-left{
+            display: flex;
+            align-items: center;
+            p{
+                margin-right: 20px;
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            p{
+                margin-left: 20px;
+            }
+        }
+    }
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        .btnBg{
+            background-color: #02897A;
+            color: white;
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 10px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .process{
+        &__first{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__second{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__third{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .quick{
+        &__first{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__second{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__txt{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}

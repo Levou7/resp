@@ -1,0 +1,72 @@
+.services{
+    margin-top: 120px;
+    h1{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 51px;
+        color: #22343D;
+    }
+    p{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+    }
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+.price{
+    margin-top: 120px;
+    h1{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 51px;
+        color: #22343D;
+    }
+    p{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+    }
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .services{
+        &__card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        p,h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .price{
+        &__card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}

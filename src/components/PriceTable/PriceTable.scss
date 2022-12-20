@@ -1,0 +1,49 @@
+.prc{
+    .card{
+        width: 320px;
+        height: 450px;
+        display: flex;
+        margin-bottom: 100px;
+        &-body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .h1{
+                font-family: 'Poppins';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 40px;
+                color: #22343D;
+            }
+            .h2{
+                font-family: 'Poppins';
+                font-weight: 700;
+                font-size: 76px;
+                line-height: 100px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #02897A;
+            }
+        }
+        button{
+            padding: 10px 20px;
+            background-color: #02897A;
+            color: white;
+        }
+        h1{
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #22343D;
+        }
+        p{
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            color: #22343D;
+        }
+    }
+}

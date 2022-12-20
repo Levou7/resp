@@ -1,0 +1,97 @@
+.resources-contact{
+    &-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 80px 0;
+        h1{
+            font-family: sans-serif;
+            font-size: 38px;
+            font-weight: 600;
+        }
+        p{
+            width: 300px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 400px;
+            margin-top: 10px;
+        }
+    }
+    &-inte{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -40px;
+        img{
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        img:hover{
+            transition: 0.5s ease all;
+            transform: rotateY(180deg);
+        }
+    }
+    &-map{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0;
+        iframe{
+            width: 1000px;
+            height: 500px;
+        }
+    }
+    &-contact{
+        margin: 80px auto;
+        .border{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 auto;
+            padding: 30px;
+            width: 1000px;
+            height: 700px;
+            border: 1px solid gray;
+            text-align: center;
+            h1{
+                align-items: center;
+            }
+            input{
+                width: 768px;
+                height: 54px;
+                background: #F5F5F5;
+                border: 1px solid #E8E8E8;
+                border-radius: 39px;
+                padding: 0 20px;
+                outline: none;
+                margin: 20px auto;
+                font-size: 20px;
+                font-family: sans-serif;
+                font-weight: 400;
+            }input:nth-child(4){
+                width: 768px;
+                height: 200px;
+                background: #F5F5F5;
+                border: 1px solid #E8E8E8;
+                padding: 0 20px;
+                border-radius: 0px;
+            }
+            .btn{
+                text-align: justify;
+                margin-left: 35px;
+                button{
+                    width: 100px;
+                    background: #02897A;
+                    border-radius: 35px;
+                    text-align: center;
+                    color: white;
+                    font-family: sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

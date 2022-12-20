@@ -1,0 +1,104 @@
+.customer-clients{
+    &-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    &-inte{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 850px;
+        margin: 20px auto;
+        img{
+            cursor: pointer;
+        }
+        img:hover{
+            transition: 0.5s ease all;
+            transform: rotateX(180deg);
+        }
+    }
+}
+.customer-choose{
+    margin: 20px auto;
+    &-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        h1{
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 51px;
+            text-align: center;
+            color: #22343D;
+        }
+    }
+    &-three{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        .first{
+            width: 350px;
+            border: 1px solid #9d9d9d;
+            padding: 60px 20px;
+            background-color: #DEDEDE;
+            border-radius: 10px;
+            img{
+                cursor: pointer;
+            }
+            img:hover{
+                transition: 0.5s ease all;
+                transform: rotateY(180deg);
+            }
+            h2{
+                margin-top: 40px;
+            }
+            p{
+                margin-top: 20px;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 27px;
+                text-align: center;
+                color: #22343D;
+                width: 300px;
+            }
+        }
+        .first:hover{
+            transition: 0.5s ease all;
+            position: relative;
+            bottom: 5px;
+            box-shadow: 0px 20px 10px 10px #bababa;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .customer-clients{
+        &-inte{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 500px;
+            img{
+                margin: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .customer-choose{
+        &-three{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
